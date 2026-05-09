@@ -50,6 +50,9 @@ Possible future developments for this project include:
 - Machine learning applications using SeisBench
 - Indonesian regional seismicity analysis
 
+## Data Source
+Seismic waveform and earthquake catalog data were retrieved from the IRIS FDSN web service using ObsPy.
+
 ## Author
 Fadia Putri Ananda  
 Geophysics Graduate interested in Seismology, Seismic Data Analysis, and Scientific Computing.
