@@ -1,0 +1,55 @@
+# Indonesia Earthquake Waveform Analysis using ObsPy
+This project explores basic seismic waveform analysis using Python and ObsPy. The workflow includes retrieving real earthquake event data, downloading seismic waveforms, applying signal filtering, and visualizing waveform characteristics from earthquake events near Indonesia.
+
+## Project Overview
+The main objective of this project is to understand the basic workflow of seismic data processing and waveform analysis in computational seismology.
+
+The analysis includes:
+- Retrieving earthquake event catalogs from IRIS
+- Downloading seismic waveform data
+- Preprocessing and filtering seismic signals
+- Visualizing raw and filtered waveforms
+- Interpreting waveform characteristics
+
+## Tools and Libraries
+- Python
+- ObsPy
+- Matplotlib
+- Google Colab
+
+## Workflow
+
+### 1. Retrieve Earthquake Event Catalog
+Earthquake events were obtained using the IRIS FDSN web service through ObsPy.
+
+### 2. Download Seismic Waveform Data
+Waveform data were collected from regional seismic stations closer to Indonesia to improve signal visibility and waveform representation.
+
+### 3. Signal Processing
+A bandpass filter was applied to reduce unwanted noise and improve waveform clarity.
+
+### 4. Waveform Visualization
+Both raw and filtered seismic waveforms were visualized using ObsPy and Matplotlib.
+
+## Example Output
+The filtered waveform shows clearer seismic signals compared to the raw waveform. Applying signal filtering helps improve the visibility of earthquake-related waveform characteristics.
+
+## Key Learning Points
+Through this project, I learned:
+- Basic seismic waveform processing workflow
+- How to access seismic data using ObsPy
+- Signal filtering and preprocessing techniques
+- Earthquake metadata extraction
+- Scientific visualization using Python
+
+## Future Improvements
+Possible future developments for this project include:
+- Earthquake phase picking
+- Seismic event detection
+- Spectral analysis
+- Machine learning applications using SeisBench
+- Indonesian regional seismicity analysis
+
+## Author
+Fadia Putri Ananda  
+Geophysics Graduate interested in Seismology, Seismic Data Analysis, and Scientific Computing.
