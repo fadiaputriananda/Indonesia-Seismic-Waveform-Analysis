@@ -33,6 +33,8 @@ Both raw and filtered seismic waveforms were visualized using ObsPy and Matplotl
 
 ## Example Output
 The filtered waveform shows clearer seismic signals compared to the raw waveform. Applying signal filtering helps improve the visibility of earthquake-related waveform characteristics.
+<img width="3078" height="1232" alt="waveform_example" src="https://github.com/user-attachments/assets/ce816a45-1eb4-4e00-b0e6-32c04641ae15" />
+
 
 ## Key Learning Points
 Through this project, I learned:
