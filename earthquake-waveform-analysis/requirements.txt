@@ -1,0 +1,4 @@
+ObsPy
+Matplotlib
+NumPy
+Pandas
