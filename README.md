@@ -1,60 +1,32 @@
-# Indonesia Earthquake Waveform Analysis using ObsPy
-This project explores basic seismic waveform analysis using Python and ObsPy. The workflow includes retrieving real earthquake event data, downloading seismic waveforms, applying signal filtering, and visualizing waveform characteristics from earthquake events near Indonesia.
+# Seismology Portfolio
+A collection of personal projects related to seismology, seismic data analysis, and computational geoscience using Python.
 
-## Project Overview
-The main objective of this project is to understand the basic workflow of seismic data processing and waveform analysis in computational seismology.
+## About
+This repository contains projects focused on:
 
-The analysis includes:
-- Retrieving earthquake event catalogs from IRIS
-- Downloading seismic waveform data
-- Preprocessing and filtering seismic signals
-- Visualizing raw and filtered waveforms
-- Interpreting waveform characteristics
+- Seismic waveform analysis
+- Earthquake data processing
+- Signal filtering
+- Seismic visualization
+- Computational seismology
+- Python-based geoscience workflows
 
-## Tools and Libraries
+## Tools & Technologies
 - Python
 - ObsPy
+- SeisBench
+- NumPy
+- Pandas
 - Matplotlib
+- Jupyter Notebook
 - Google Colab
 
-## Workflow
+## Projects
 
-### 1. Retrieve Earthquake Event Catalog
-Earthquake events were obtained using the IRIS FDSN web service through ObsPy.
-
-### 2. Download Seismic Waveform Data
-Waveform data were collected from regional seismic stations closer to Indonesia to improve signal visibility and waveform representation.
-
-### 3. Signal Processing
-A bandpass filter was applied to reduce unwanted noise and improve waveform clarity.
-
-### 4. Waveform Visualization
-Both raw and filtered seismic waveforms were visualized using ObsPy and Matplotlib.
-
-## Example Output
-The filtered waveform shows clearer seismic signals compared to the raw waveform. Applying signal filtering helps improve the visibility of earthquake-related waveform characteristics.
-<img width="3078" height="1232" alt="waveform_example" src="https://github.com/user-attachments/assets/ce816a45-1eb4-4e00-b0e6-32c04641ae15" />
-
-
-## Key Learning Points
-Through this project, I learned:
-- Basic seismic waveform processing workflow
-- How to access seismic data using ObsPy
-- Signal filtering and preprocessing techniques
-- Earthquake metadata extraction
-- Scientific visualization using Python
-
-## Future Improvements
-Possible future developments for this project include:
-- Earthquake phase picking
-- Seismic event detection
-- Spectral analysis
-- Machine learning applications using SeisBench
-- Indonesian regional seismicity analysis
-
-## Data Source
-Seismic waveform and earthquake catalog data were retrieved from the IRIS FDSN web service using ObsPy.
+| Project | Description |
+|---|---|
+| Earthquake Waveform Analysis | Basic seismic waveform retrieval, filtering, and visualization using ObsPy |
 
 ## Author
-Fadia Putri Ananda  
+Fadia Putri Ananda
 Geophysics Graduate interested in Seismology, Seismic Data Analysis, and Scientific Computing.
